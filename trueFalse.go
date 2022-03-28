@@ -4,7 +4,7 @@ import "fmt"
 
 func compare(value int) string {
 	//do not change this variable resultMessage, secretValue
-	resultMessge := ""
+	// resultMessge := ""
 	secretValue := 88
 
 	//Insert your code from here
@@ -16,7 +16,7 @@ func compare(value int) string {
 		fmt.Println("Too high, try again next time!")
 	}
 	//do not remove this line
-	return resultMessge
+	// return resultMessge //is resultmessge redundant?
 }
 
 func main() {
