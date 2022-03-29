@@ -12,7 +12,7 @@ func compare(value int) string {
 		resultMessge = "Well done! Your guess is correct."
 	} else if value < secretValue {
 		resultMessge = "Too low, try again next time!"
-	} else if value > secretValue {
+	} else {
 		resultMessge = "Too high, try again next time!"
 	}
 	//do not remove this line
